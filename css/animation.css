@@ -92,3 +92,22 @@
    filter: grayscale(.6) sepia(.3);
 }
 
+/* Esercizio 10 */
+
+.ex-10-icon {
+    animation-name: rotate;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+}  
+
+@keyframes rotate {
+    0% {
+        transform: rotate(1deg);
+    }
+
+    
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
