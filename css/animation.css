@@ -9,3 +9,13 @@
     background-color: red;
 }
 
+/* Esercizio 2 */
+
+.ex-2-square {
+    transition: all 2.5s;
+}
+
+.ex-2-square:active {
+   width: 100%;
+}
+
