@@ -83,11 +83,12 @@
 /* Esercizio 9 */
 
 .ex-9-img {
-    transition: all 1s;
+    transition: all 2s;
 }
 
 .ex-9-img:hover {
-    width: 600px;
-    margin: 1px 1px;
+   transform:scale(1.5);
+   border-radius: 20px;
+   filter: grayscale(.6) sepia(.3);
 }
 
