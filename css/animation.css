@@ -98,16 +98,16 @@
     animation-name: rotate;
     animation-duration:1s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }  
 
 @keyframes rotate {
     0% {
-        transform: rotate(1deg);
+        transform: rotate(360deg);
     }
 
-    
     100% {
-        transform: rotate(360deg);
+        transform: rotate(0deg);
     }
 }
 
