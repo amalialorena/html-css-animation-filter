@@ -137,7 +137,48 @@
 
 /* Esercizio 12 */
 
-.ex-12-button {
-    animation-name: first-button;
+.ex-12-button:hover .ex-12-top-white { 
+    animation-name: first-button-top;
     animation-duration: 2s;
+    animation-timing-function: linear;
+
 }
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation-name: first-button-bottom;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes first-button-top {
+    0%{
+        top: -10px;
+        left: 10%;
+    }
+
+    50% {
+        top: -10px;
+        left: calc(100% - 60px);
+    }
+    100%{
+        top: -10px;
+        left: 10%;
+    }
+}
+
+@keyframes first-button-bottom {
+    0%{
+        bottom: -10px;
+        right: 20%;
+    }
+
+    50% {
+        bottom: -10px;
+        right: calc(100% - 60px);
+    }
+    100%{
+        bottom: -10px;
+        right: 20%;
+    }
+}
+
